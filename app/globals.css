@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-paper text-ink antialiased;
+}
+
+.diagnostic-output h2 {
+  @apply mt-8 mb-4 font-serif text-2xl font-medium;
+}
+
+.diagnostic-output h3 {
+  @apply mt-6 mb-3 font-serif text-xl font-medium;
+}
+
+.diagnostic-output p {
+  @apply mb-4 leading-relaxed text-ink/90;
+}
+
+.diagnostic-output blockquote {
+  @apply my-4 border-l-4 border-accent pl-4 italic text-muted;
+}
+
+.diagnostic-output blockquote p {
+  @apply mb-2;
+}
+
+.diagnostic-output hr {
+  @apply my-8 border-line;
+}
+
+.diagnostic-output ol {
+  @apply mb-4 list-decimal space-y-2 pl-6;
+}
+
+.diagnostic-output strong {
+  @apply font-semibold text-ink;
+}
